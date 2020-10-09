@@ -1,38 +1,122 @@
-.body{
+.body{/*Body background*/
 	background-color: #46077e;
 	border:2px solid white;
 	border-radius: 15px;
 	padding: 5px;
 }
 
-.container{
+.container{/*Logo&nav background*/
 	border:2px solid white;
 	border-radius: 15px;
 	margin-top:2px;
 }
 
-.logo{
+.logo{/*Logo*/
 	font-size:30px;
 	color:darkorange;
-	background-color:#46077e;
+	margin-left: 30px;
 	padding-left: 50px;
 	border-radius:15px;
 }
 
-.nav{
-	margin-top:55px;
+.navbut1{
+	margin-top:25px;
 	margin-right:10px;
+	border-radius:15px;
 	float:right;
-	border:1px solid #fff;
-	border-radius: 10px;
+	background-color:#46077e;
 	color:darkorange;
-	text-align: middle;
-	font-size: 15px;
-	padding-left:10px;
-	padding-right:10px;
+	width: 160px;
+	height: 100px;
+	font-size: 25px;
+}
+.navbut2{
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:15px;
+	float:right;
+	background-color:#46077e;
+	color:darkorange;
+	width: 190px;
+	height: 100px;
+	font-size: 25px;
+}
+.navbut3{
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:15px;
+	float:right;
+	background-color:#46077e;
+	color:darkorange;
+	width: 210px;
+	height: 100px;
+	font-size: 25px;
+}
+.navbut4{
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:15px;
+	float:right;
+	background-color:#46077e;
+	color:darkorange;
+	width: 160px;
+	height: 100px;
+	font-size: 25px;
+}
+.navbut5{
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:15px;
+	float:right;
+	background-color:#46077e;
+	color:darkorange;
+	width: 160px;
+	height: 100px;
+	font-size: 25px;
+}
+.navbut6{
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:15px;
+	float:right;
+	background-color:#46077e;
+	color:darkorange;
+	width: 160px;
+	height: 100px;
+	font-size: 25px;
 }
 
-.mainshoe img{
+.navbut1:hover{
+	background-color: red;
+	color:white;
+}
+
+.navbut2:hover{
+	background-color: red;
+	color:white;
+}
+
+.navbut3:hover{
+	background-color: red;
+	color:white;
+}
+
+.navbut4:hover{
+	background-color: red;
+	color:white;
+}
+
+.navbut5:hover{
+	background-color: red;
+	color:white;
+}
+
+.navbut6:hover{
+	background-color: red;
+	color:white;
+}
+
+.mainshoe img{/*Main image*/
 	height: 600px;
 	width: 100%;
 	border:2px white;
@@ -40,14 +124,13 @@
 	margin-top:5px;
 }
 
-.him {
+.him {/*Shoes for him background*/
 	background-color: #36cb9f;
 	border:2px white;
 	border-radius: 15px;
-	margin:0;
 }
 
-h3{
+h3{/*Shoes for him*/
 	color:darkorange;
 	font-size:35px;
 	padding-left:45%;
@@ -59,25 +142,53 @@ h3{
 
 .manshoes{
 	background-color: #36cb9f;
-	padding:10px;
 	border:2px white;
 	border-radius:15px;
 }
 
-.manshoes img{
-	height:400px;
-	width:400px;
-	border-radius: 10%;
-	background-color:#749d91;
-	margin-right: 1.5%;
-	margin-left: 1.5%;
+.manshoes img{/*Image*/
+	height:300px;
+	width:300px;
+	border-radius: 20px;
+	margin-left: 7%;
 }
 
-.men{
-	background-color: #749d91;
-	color:white;
-	font-size:25px;
-	padding-left:0px;
-	margin-top:5px;
+div.one{
+	background-color: darkgreen;
+	border-radius: 20px;
+	width: 300px;
+	height: 500px;
+	float:left;
+	margin-left: 7%;
+}
 
+div.two{
+	background-color: darkgreen;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 7.2%;
+}
+
+div.three{
+	background-color: darkgreen;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 7.2%;
+}
+
+div.four{
+	background-color: darkgreen;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 7.2%;
+}
+
+.clear{
+	clear:both;
 }
